@@ -1,7 +1,13 @@
-#include <stdio.h>
+#include <iostream>
 
-int main(int argc, char **argv)
-{
-	printf("hello world\n");
-	return 0;
+int main() {
+    int favorite_number;
+    
+    std::cout << "Enter your favorite number between 1 and 100:";
+    
+    std::cin >> favorite_number;
+    
+    std::cout << "Amazing!! " << favorite_number << " is my favorite number, too!" << std::endl;
+    
+    return 0;
 }
