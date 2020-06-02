@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="cheerful-coursework" Database="" Version="10000">
-  <Project Name="FavoriteNumber" Path="Project1/Project1.project" Active="Yes"/>
+  <Project Name="FavoriteNumber" Path="Project1/Project1.project" Active="No"/>
+  <Project Name="VectorsAndArrays" Path="VectorsAndArrays/VectorsAndArrays.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="FavoriteNumber" ConfigName="Debug"/>
+      <Project Name="VectorsAndArrays" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="FavoriteNumber" ConfigName="Release"/>
+      <Project Name="VectorsAndArrays" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
